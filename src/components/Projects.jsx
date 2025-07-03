@@ -6,15 +6,11 @@ import "../style.css";
 const Projects = () => {
   // Projects data
   const projects = [
+   
     {
-      title: "Movie Dozz",
-      description: `A movie recommendation app that helps users find movies based on their preferences and ratings.
-       and user can able to view the top rated movie and upcoming movies and also able to view the trailer and mostly this works with the VPN help.`,
-    },
-    {
-      title: "GitHub Finder",
+      title: "Todo App",
       description:
-        "A web app that lets users search GitHub profiles and repositories. and helps them to direct to their profile and able to use their repos.",
+        "A simple task manager app that allows users to create, edit, and delete tasks.",
     },
     {
       title: "Weather App",
@@ -22,19 +18,38 @@ const Projects = () => {
         "An app that shows weather details based on the user's location or city.",
     },
     {
-      title: "Todo App",
+      title: "Movie Dozz",
+      description: `A movie recommendation app that helps users find movies based on their preferences and ratings. Users can view top-rated and upcoming movies, watch trailers, and more.`,
+    },
+    
+   
+    {
+      title: "NeuroNav" + " (Ongoing Project)",
+      description: `An AI-powered multi-modal accessibility tool designed to enable seamless web navigation for users with diverse abilities. Combines voice, gesture, and eye-tracking technologies for an inclusive digital experience.`,
+    },
+    
+    {
+      title: "GitHub Finder",
       description:
-        "A simple task manager app that allows users to create, edit, and delete tasks.",
+        "A web app that lets users search GitHub profiles and repositories. Helps users explore profiles and navigate directly to their repositories.",
+    },
+    {
+      title: "Skin Disease Detection App",
+      description: `A web application that detects and classifies common human skin diseases using a CNN model. It provides users with disease details, prevention tips, and treatment suggestions.`,
+    },
+    {
+      title: "Lung Cancer Detection App",
+      description: `An AI-based tool that classifies lung cancer images into benign and malignant categories using a ResNet50 model, helping doctors with faster diagnosis.`,
     },
     {
       title: "Tourism Website",
       description:
-        "A tourism site with a minimal place designed using bootstrap.",
+        "A tourism site with minimal design using Bootstrap showcasing popular destinations.",
     },
     {
       title: "Blog",
       description:
-        "A blogging site for myself where I posted some places and more.",
+        "A personal blogging site where I post about tech topics and travel experiences.",
     },
     {
       title: "Calendar",
@@ -68,12 +83,12 @@ const Projects = () => {
     {
       title: "Frontend Developer - Code Alpha",
       description:
-        "Completed the task and built the image gallery, calculator, and music player.",
+        "Completed tasks and built an image gallery, calculator, and music player as part of the internship.",
     },
     {
       title: "Data Analyst - Cognify Technologies",
       description:
-        "Analyzed and visualized data using Python, including creating reports and performing data cleansing tasks.",
+        "Analyzed and visualized data using Python, created reports, and performed data cleansing tasks.",
     },
   ];
 
@@ -90,7 +105,7 @@ const Projects = () => {
           <div
             key={index}
             className="col-md-6"
-            style={{ marginBottom: "15px", padding: "10px" }} // Increased padding here
+            style={{ marginBottom: "15px", padding: "10px" }}
           >
             <div className="card" style={{ padding: "15px" }}>
               <div className="card-body">
